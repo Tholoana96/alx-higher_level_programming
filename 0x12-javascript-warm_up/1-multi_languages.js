@@ -1,4 +1,5 @@
 #!/usr/bin/node
-
-const myVar = "C is fun\nPython is cool\nJavaScript is amazing";
-console.log(myVar);
+let words = ["C is fun", "Python is cool", "Javascript is amazing"];
+for (let i = 0; i < words.length; i++) {
+  console.log(words[i]);
+}
